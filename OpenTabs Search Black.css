@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Black OpenTabs Search
 @namespace      github.com/openstyles/stylus
-@version        1.0.2
+@version        1.0.3
 @description    Black theme for OpenTabs Search
 @author         Gersonzao
 @updateURL      https://github.com/Gersonzao/Black-OpenTabs-Search/blob/main/OpenTabs Search Black.css
@@ -12,23 +12,8 @@
 	--counter-border-colour: #000;
 	--home-counter-border-colour: #000;
 }
-.progress-circle-bg {
-  stroke: #000;
-}
 body {
   background: #000;
-}
-ul.web li .desc {
-  color: #bdc1c6;
-}
-ul.web li .title a {
-  color: #8ab4f8;
-}
-ul.web li .url {
-  color: #888;
-}
-.progress-circle-bg {
-  stroke: #000;
 }
 .autocomplete_container {
   color: #fff;
@@ -43,9 +28,6 @@ ul.web li .url {
 }
 .isActive {
   background-color: #111;
-}
-.read-more-news span {
-  color: #969ba1;
 }
 .drop-down-list .drop-down-item:hover {
   background: #111;
@@ -63,9 +45,6 @@ ul.web li .url {
 #serp-paging {
   background: #000;
 }
-.serp-searchinput {
-  color: #fff;
-}
 .drop-down-list {
   background: #000;
 }
@@ -80,7 +59,7 @@ ul.web li .url {
 }
 .serp-searchinput {
   background: #000;
-  color: #fff;
+  color: #aaa;
   border-color: #000
 }
 .progress-circle-bg {
