@@ -20,6 +20,9 @@ Possible solution: Change the svg of each icon (except for Google)
 {N} Giraffe image in searches with no queries isn't darkened<br>
 Solution: Manipulate the image to have a black background (NOTE: only open an issue with a suggested image if it has no aliasing)
 ### Changelog:
+**1.0.3**<br>
+Made it so that text in the search box isn't so bright
+Debloat
 **1.0.2**<br>
 Added black borders to search bar and auto-complete suggestions<br>
 Fixed color of hovered items in the "More" tab<br>
