@@ -27,7 +27,7 @@ Fixed color of the title border<br>
 Fixed so that it doesn't change other websites too
 ## Ecosia
 ### Notes
-You can remove the Bing icons on ads that are caused by FaviconizeGoogle (delete line 68 and 64) https://greasyfork.org/en/scripts/7664-faviconizegoogle
+You can remove the Bing icons on ads that are caused by FaviconizeGoogle (delete line 68 and 64) https://greasyfork.org/en/scripts/7664-faviconizegoogle. This is not recommended if the script gets updated and it gets fixed
 ### Known issues
 blog.ecosia.org language select border isn't blacked<br>
 ecosiashop.com isn't blacked properly<br>
