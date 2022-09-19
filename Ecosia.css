@@ -1,12 +1,12 @@
-/* ==UserStyle==
-@name BlackEcosia
-@namespace github.com/openstyles/stylus
-@version 1.0.3
-@description Black theme for Ecosia
+/*==UserStyle==
 @author Gersonzao
+@description A dark, black theme for ecosia.org and ecosiashop.com
 @homepageURL http:github.com/Gersonzao/BlackEcosia
-@updateURL http:github.com/Gersonzao/BlackEcosia/blob/main/BlackEcosia.css
-==/UserStyle== */
+@name Black Ecosia
+@namespace github.com/openstyles/stylus
+@updateURL http:userstyles.world/api/style/6564.user.css
+@version 1.0.4
+==/UserStyle==*/
 @-moz-document domain("ecosia.org"){
 /*Color index*/
 :root{
@@ -21,7 +21,7 @@
 --color-button-background-secondary-active:#111;
 --color-border:#000;
 --color-button-border:#000;
---color-button-content-secondary:#808080;
+--color-button-content-secondary:#c0c0c0;
 --color-button-content-tertiary:#000;
 --color-decorative-border-1:#000;
 --color-elevation-layer-1:#000;
@@ -36,7 +36,7 @@
 --color-highlight-primary:#111;
 --color-text-primary:#fff;
 --color-text-secondary:#fff;
---color-url:#ddd;
+--color-url:#c0c0c0;
 --text-color:#fff
 }
 /*Background color*/
@@ -44,10 +44,13 @@ body{
 color:#fff;
 	background-color:#000
 }
-/*Global (All Ecosia websites)*/
 /*Search*/
 .logo__icon{
 color:#fff
+}
+/*Counter pop-out Learn more hyperlink color*/
+a.link:nth-child(2) {
+color:#c0c0c0
 }
 /*Search text*/
 .layout[data-v-1352b31e]{
@@ -61,22 +64,13 @@ color:#fff
 .ecosia-label[data-v-1bba0507]{
 	color:#ffa000
 }
-/*Disable Bing FaviconizeGoogle favicons on Ads (not recommended if the script gets updated and it gets fixed) http://userscripts.org/scripts/source/48636.user.js
-.favicon{
-	display: none
-}
-*/
 /*Counter pop-out text*/
 .personal-counter-content[data-v-9fa15ab4]{
 	color:#fff
 }
-/*Counter pop-out Learn more*/
-.link--color-secondary[data-v-b4e44ddc]{
-	color:#ddd
-}
 /*Counter pop-out Sign out*/
 .link--color-primary[data-v-b4e44ddc]{
-	color:#ddd
+	color:#c0c0c0
 }
 /*News color*/
 .notification-pill{
@@ -89,6 +83,14 @@ color:#fff!important
 /*Hamburger color*/
 .icon--icon-hamburger{
 color:#fff
+}
+/*Related searches color (same query or same query following of something)*/
+.related-queries__text[data-v-372398fe] {
+	color: #808080;
+}
+/*Current page text color*/
+.pagination__page--current[data-v-7f2c0350] {
+	color:#fff
 }
 /*Page buttons hover*/
 .base-button--variant-solid-white.base-button--force-hover[data-v-4913d094], .base-button--variant-solid-white[data-v-4913d094]:hover{
@@ -263,7 +265,7 @@ color:#fff
 }
 /*Sidebar titles color*/
 .c-teaser__title{
-	color:#ddd
+	color:#c0c0c0
 }
 /*Tags*/
 .c-tags a{
@@ -649,7 +651,7 @@ color:#888
 }
 /*Contry/Region subtext color*/
 ._23HvW:dir(ltr){
-	color:#ddd
+	color:#c0c0c0
 }
 /*Country/Region border color*/
 ._3RVyp:dir(ltr){
