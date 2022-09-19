@@ -36,6 +36,15 @@ plant.ecosia.org/collections first image isn't replaceable<br>
 plant.ecosia.org checkout pages scrollbars aren't blacked<br>
 plant.ecosia.org checkout pages images aren't replaceable
 ### Changelog:
+**1.0.4**<br>
+Changed name to Black Ecosia<br>
+Compacted metadata<br>
+Enhanced contrast<br>
+Fixed `@updateURL` so that updates work properly<br>
+Fixed color of related searches (with the same query or same query following of something)<br>
+Rearranged metadata to alphabetical order<br>
+Removed unnecessary second commentary<br>
+Updated description so that it clarifies that it can fix FaviconizeGoogle issues<br>
 **1.0.3**<br>
 Rewrote the entire style so that it's easily modifiable and legibly compact<br>
 Added support for the entire domain<br>
