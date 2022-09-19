@@ -43,8 +43,9 @@ Enhanced contrast<br>
 Fixed `@updateURL` so that updates work properly<br>
 Fixed color of related searches (with the same query or same query following of something)<br>
 Rearranged metadata to alphabetical order<br>
+Removed FaviconizeGoogle fix<br>
 Removed unnecessary second commentary<br>
-Updated description so that it clarifies that it can fix FaviconizeGoogle issues<br>
+Updated description to match UserStyles.world<br>
 **1.0.3**<br>
 Rewrote the entire style so that it's easily modifiable and legibly compact<br>
 Added support for the entire domain<br>
