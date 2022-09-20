@@ -4,7 +4,7 @@ This is made for myself and for whoever likes my styles and uses my software com
 ***My other userstyles profiles:***<br>
 .insert my external pages with name.
 
-## OpenTabs Search+ <!--********************************************************************************************************************************************-->
+## OpenTabs Search+ <!--***************************************************************************************\_______________________________________/************-->
 ### Notes:
 Planning to implement to the entire OpenTabs domain
 ### Known issues:
@@ -34,7 +34,13 @@ Fixed color of the title border<br>
 Fixed so that it doesn't change other websites too
 ## Ecosia <!--******************************************************************************************************************************************************-->
 ### Notes
-You can remove the Bing icons on ads that are caused by FaviconizeGoogle (delete line 68 and 64) https://greasyfork.org/en/scripts/7664-faviconizegoogle. This is not recommended if the script gets updated and it gets fixed
+**You can disable the FaviconizeGoogle fix:**<br>
+1: Open the text editor of your choice<br>
+2: Find a line containing `/*FaviconizeGoogle*/`<br>
+3: Delete the content as shown in the image below and the empty line that it creates<br>
+![image](https://user-images.githubusercontent.com/85644671/191157468-a74e6c87-410c-4295-92e0-d3d716f5db80.png)<br>
+4: Save it and apply to you style manager<br>
+5: Done!
 ### Known issues
 blog.ecosia.org language select border isn't blacked<br>
 ecosiashop.com isn't blacked properly<br>
