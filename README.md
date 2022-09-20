@@ -4,17 +4,21 @@ This is made for myself and for whoever likes my styles and uses my software com
 ***My other userstyles profiles:***<br>
 .insert my external pages with name.
 
-## OpenTabs Search
+## OpenTabs Search+ <!--********************************************************************************************************************************************-->
 ### Notes:
 Planning to implement to the entire OpenTabs domain
 ### Known issues:
-Explore buttons on "Images for 'query'" are white<br>
-Icons (except for Google) on "More" submenu on searches aren't contrasted<br>
+Homepage Jacobs Startup Competition vector background isn't<br>
+blackedIcons (except for Google) on "More" submenu on searches aren't contrasted<br>
 Giraffe image in searches with no queries isn't darkened<br>
 ### Changelog:
 **1.0.5**<br>
-Fixed an issue where in some searches, all unvisited results (except for OptiSearch's) were grey (`c0c0c0`)<br>
-Renamed some commentaries<br>
+Added support for the entire OpenTabs domain<br>
+Compacted metadata<br>
+Fixed `updateURL`so that updates work<br>
+Fixed next and previous image buttons colors
+Rearranged metadata to alphabetical<br>
+Updated description to match UserStyles.world<br>
 **1.0.4**<br>
 Fixed text color<br>
 **1.0.3**<br>
@@ -28,7 +32,7 @@ Fixed color of "x" page buttons on the bottom when hovered<br>
 Fixed color of the title border<br>
 **1.0.1**<br>
 Fixed so that it doesn't change other websites too
-## Ecosia
+## Ecosia <!--******************************************************************************************************************************************************-->
 ### Notes
 You can remove the Bing icons on ads that are caused by FaviconizeGoogle (delete line 68 and 64) https://greasyfork.org/en/scripts/7664-faviconizegoogle. This is not recommended if the script gets updated and it gets fixed
 ### Known issues
@@ -39,6 +43,10 @@ plant.ecosia.org/collections first image isn't replaceable<br>
 plant.ecosia.org checkout pages scrollbars aren't blacked<br>
 plant.ecosia.org checkout pages images aren't replaceable
 ### Changelog:
+**1.0.5**<br>
+Added FaviconizeGoogle fix again, as an enabled by default feature
+Fixed an issue where in some searches, all unvisited results (except for OptiSearch's) were grey (`c0c0c0`)<br>
+Renamed some commentaries<br>
 **1.0.4**<br>
 Changed name to Black Ecosia<br>
 Compacted metadata<br>
