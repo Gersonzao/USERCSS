@@ -8,6 +8,10 @@
 @version 1.0.5
 ==/UserStyle==*/
 @-moz-document domain("ecosia.org"){
+/*FaviconizeGoogle*/
+.favicon {
+	display: none
+}
 /*Color index*/
 :root{
 --color:#000;
