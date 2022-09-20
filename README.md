@@ -8,8 +8,8 @@ This is made for myself and for whoever likes my styles and uses my software com
 ### Notes:
 Planning to implement to the entire OpenTabs domain
 ### Known issues:
-Homepage Jacobs Startup Competition vector background isn't<br>
-blackedIcons (except for Google) on "More" submenu on searches aren't contrasted<br>
+Homepage Jacobs Startup Competition vector background isn't blacked<br>
+Icons (except for Google) on "More" submenu on searches aren't contrasted<br>
 Giraffe image in searches with no queries isn't darkened<br>
 ### Changelog:
 **1.0.5**<br>
