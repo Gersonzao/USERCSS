@@ -12,6 +12,9 @@ Explore buttons on "Images for 'query'" are white<br>
 Icons (except for Google) on "More" submenu on searches aren't contrasted<br>
 Giraffe image in searches with no queries isn't darkened<br>
 ### Changelog:
+**1.0.5**<br>
+Fixed an issue where in some searches, all unvisited results (except for OptiSearch's) were grey (`c0c0c0`)<br>
+Renamed some commentaries<br>
 **1.0.4**<br>
 Fixed text color<br>
 **1.0.3**<br>
