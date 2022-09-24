@@ -5,8 +5,10 @@ This is a collection of black themes for multiple pages made for whoever uses th
 To be filled
 
 ### Translating:
-Avoid changing the sense the least as possible, even if it makes very long sentences<br>
-If you're translating the entire documentation, please put the changelogs as low priority<br>
+Avoid changing the meaning of the least as possible, even if it makes very long sentences<br>
+Do not change the order of the headers<br>
+If you're translating the entire documentation, please put the changelogs as low priority annoyingtypothatimade<br>
+In text inside headers, please use the [ASCII Sort Order](https://support.ecisolutions.com/doc-ddms/help/reportsmenu/ascii_sort_order_chart.htm). If the symbols that are being used aren't mentioned in the page, feel free to use your creativity or make a suggestion<br>
 Your language level in the language you're translating to must be level [C1](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages)+<br>
 You can also review translations by adding TranslationReview to the top of your comment<br>
 
