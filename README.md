@@ -21,3 +21,7 @@ Before opening an issue reporting a bug, make sure it happens with the software 
 ### For specific information about every styles, click the hyperlinks below:
 [Ecosia](https://github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements)<br>
 [OpenTabs Search+](https://github.com/Gersonzao/UserCSS/tree/main/OpenTabs%20Search%2B.elements)
+
+### To-do:
+Create own sorting method on a new repository and mention it in translating<br>
+Archive CEFR page
