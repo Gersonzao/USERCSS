@@ -54,7 +54,7 @@ color:#fff;
 color:#fff
 }
 /*Counter pop-out Learn more hyperlink color*/
-a.link:nth-child(2) {
+.personal-counter-content__body > a:nth-child(2){
 color:#c0c0c0
 }
 /*Counter pop-out text*/
