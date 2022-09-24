@@ -1,74 +1,21 @@
 # UserCSS
-This is made for myself and for whoever likes my styles and uses my software combination, I'm not testing it in other browsers or with other style managers. If you're going to report any bug, make sure you're using the latest Firefox Release and Stylus version
+This is a collection of black themes for multiple pages made for whoever uses the latest version of [Firefox](https://www.mozilla.org/firefox/download/thanks/) (Release channel) and [Stylus](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/) (updated from the [AMO (Mozilla Add-ons)](https://addons.mozilla.org/en-GB/firefox/)). It also contains [fixes](#fixes) for very specific things
 
-***My other userstyles profiles:***<br>
-.insert my external pages with name.
+### My other profiles:
+To be filled
 
-## OpenTabs Search+ <!--***************************************************************************************\_______________________________________/************-->
-### Notes:
-Planning to implement to the entire OpenTabs domain
-### Known issues:
-Homepage Jacobs Startup Competition vector background isn't blacked<br>
-Icons (except for Google) on "More" submenu on searches aren't contrasted<br>
-Giraffe image in searches with no queries isn't darkened<br>
-### Changelog:
-**1.0.5**<br>
-Added support for the entire OpenTabs domain<br>
-Compacted metadata<br>
-Fixed `updateURL`so that updates work<br>
-Fixed next and previous image buttons colors
-Rearranged metadata to alphabetical<br>
-Updated description to match UserStyles.world<br>
-**1.0.4**<br>
-Fixed text color<br>
-**1.0.3**<br>
-Made it so that text in the search box isn't so bright<br>
-Debloat<br>
-**1.0.2**<br>
-Added black borders to search bar and auto-complete suggestions<br>
-Fixed color of hovered items in the "More" tab<br>
-Fixed font color of "See more images" box<br>
-Fixed color of "x" page buttons on the bottom when hovered<br>
-Fixed color of the title border<br>
-**1.0.1**<br>
-Fixed so that it doesn't change other websites too
-## Ecosia <!--******************************************************************************************************************************************************-->
-### Notes
-**You can disable the FaviconizeGoogle fix:**<br>
-1: Open the text editor of your choice<br>
-2: Find a line containing `/*FaviconizeGoogle*/`<br>
-3: Delete the content as shown in the image below and the empty line that it creates<br>
-![image](https://user-images.githubusercontent.com/85644671/191157468-a74e6c87-410c-4295-92e0-d3d716f5db80.png)<br>
-4: Save it and apply to you style manager<br>
-5: Done!
-### Known issues
-blog.ecosia.org language select border isn't blacked<br>
-ecosiashop.com isn't blacked properly<br>
-explore.ecosia.org/jobs images aren't replaceable by a png version<br>
-plant.ecosia.org/collections first image isn't replaceable<br>
-plant.ecosia.org checkout pages scrollbars aren't blacked<br>
-plant.ecosia.org checkout pages images aren't replaceable
-### Changelog:
-**1.0.5**<br>
-Added FaviconizeGoogle fix again, as an enabled by default feature
-Fixed an issue where in some searches, all unvisited results (except for OptiSearch's) were grey (`c0c0c0`)<br>
-Renamed some commentaries<br>
-**1.0.4**<br>
-Changed name to Black Ecosia<br>
-Compacted metadata<br>
-Enhanced contrast<br>
-Fixed `@updateURL` so that updates work properly<br>
-Fixed color of related searches (with the same query or same query following of something)<br>
-Rearranged metadata to alphabetical order<br>
-Removed FaviconizeGoogle fix<br>
-Removed unnecessary second commentary<br>
-Updated description to match UserStyles.world<br>
-**1.0.3**<br>
-Rewrote the entire style so that it's easily modifiable and legibly compact<br>
-Added support for the entire domain<br>
-Added **partial** support for https://ecosiashop.com<br>
-Changed all `#888` colors to `#808080` colors<br>
-**1.0.2**<br>
-Fixed colors of tabs in searches<br>
-**1.0.1**<br>
-Added OptiSearch support (https://addons.mozilla.org/en-GB/firefox/addon/optisearch/)
+### Translating:
+Avoid changing the sense the least as possible, even if it makes very long sentences<br>
+If you're translating the entire documentation, please put the changelogs as low priority<br>
+Your language level in the language you're translating to must be level [C1](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages)+<br>
+You can also review translations by adding TranslationReview to the top of your comment<br>
+
+### Opening an issue:
+Before opening an issue reporting a bug, make sure it happens with the software combination mentioned above and that it doesn't happen when you reload the page. If the bug doesn't happen when you reload the page, don't open anissue
+
+### <a name="fixes"></a>Other fixes
+[Ecosia](https://github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements): Fixes FaviconizeGoogle incorrect favicons 
+
+### For specific information about every styles, click the hyperlinks below:
+[Ecosia](https://github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements)<br>
+[OpenTabs Search+](https://github.com/Gersonzao/UserCSS/tree/main/OpenTabs%20Search%2B.elements)
