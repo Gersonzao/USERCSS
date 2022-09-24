@@ -5,7 +5,7 @@
 @name Black Ecosia
 @namespace github.com/openstyles/stylus
 @updateURL http:userstyles.world/api/style/6564.user.css
-@version 1.0.5
+@version 1.0.6
 ==/UserStyle==*/
 @-moz-document domain("ecosia.org"){
 /*FaviconizeGoogle*/
@@ -25,9 +25,10 @@
 --color-button-background-secondary-active:#111;
 --color-border:#000;
 --color-button-border:#000;
---color-button-content-secondary:#c0c0c0;
+--color-button-content-secondary:#fff;
 --color-button-content-tertiary:#000;
 --color-decorative-border-1:#000;
+--color-disabled:#000;
 --color-elevation-layer-1:#000;
 --color-elevation-layer-2:#000;
 --color-form-border-default:#000;
@@ -56,22 +57,6 @@ color:#fff
 a.link:nth-child(2) {
 color:#c0c0c0
 }
-/*Search text*/
-.layout[data-v-1352b31e]{
-	color:#808080
-}
-/*Search queries links part*/
-.result__source[data-v-008b2db9]{
-	color:#808080
-}
-/*Search queries color*/
-.result-title__heading[data-v-008b2db9] {
-	color:#8ab4f8
-}
-/*Ad color*/
-.ecosia-label[data-v-1bba0507]{
-	color:#ffa000
-}
 /*Counter pop-out text*/
 .personal-counter-content[data-v-9fa15ab4]{
 	color:#fff
@@ -92,13 +77,53 @@ color:#fff!important
 .icon--icon-hamburger{
 color:#fff
 }
-/*Related searches color (same query or same query following of something)*/
-.related-queries__text[data-v-372398fe] {
-	color: #808080;
+/*Search filters dropdown color*/
+.search-filters[data-v-5ec1316c]{
+	color: #fff
+}
+/*No result text color*/
+.message-tips[data-v-4a5601a4]{
+	color: #fff
+}
+/*Ad color*/
+.ecosia-label[data-v-1bba0507]{
+	color:#ffa000
+}
+/*Active tab bottom line color*/
+.tab--highlighted[data-v-514dfd22]::after, .tab--highlighted[data-v-514dfd22]:focus-within::after, .tab--highlighted[data-v-514dfd22]:hover::after{
+	background-color: var(--color-brand-primary)
+}
+/*Search text*/
+.layout[data-v-1352b31e]{
+	color:#808080
+}
+/*Search queries links part*/
+.result__source[data-v-008b2db9]{
+	color:#808080
+}
+/*Related searches color (containing the same query)*/
+.related-queries__text[data-v-372398fe]{
+	color:#808080;
 }
 /*Current page text color*/
-.pagination__page--current[data-v-7f2c0350] {
+.pagination__page--current[data-v-7f2c0350]{
 	color:#fff
+}
+/*Images left button surrounding gradient color*/
+.query-expansions__control-background--left[data-v-5fe9659e] {
+	background: linear-gradient(270deg,#fff0,#000 30%,var(--color-background-primary))
+}
+/*Images right button surrounding gradient color*/
+.query-expansions__control-background--right[data-v-5fe9659e] {
+	background: linear-gradient(90deg,#fff0,#000 30%,var(--color-background-primary))
+}
+/*Image result title*/
+.image-result__details-title[data-v-353b9075]{
+	color:#fff
+}
+/*Image result description*/
+.image-result__details-source[data-v-353b9075]{
+	color:#808080
 }
 /*Page buttons hover*/
 .base-button--variant-solid-white.base-button--force-hover[data-v-4913d094], .base-button--variant-solid-white[data-v-4913d094]:hover{
@@ -116,6 +141,15 @@ color:#fff
 .base-button--variant-outline[data-v-4913d094]{
 	color:#fff!important;
 	background-color:#111
+}
+/*Settings*/
+/*Text color*/
+.settings__form[data-v-25767cb0]{
+	color: #fff
+}
+/*Text description*/
+.field__description[data-v-02a00247]{
+	color: #808080
 }
 /*OptiSearch support*/
 /*Hyperlink color*/
@@ -464,7 +498,7 @@ color:#fff
 }
 /*Empower women*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_480x480.jpg?v=1637158117 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/Women-1.png");
+background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
 background-size: cover;
 padding: 50%
 }
@@ -523,7 +557,7 @@ padding: 50%
 }
 /*Empower women*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_320x320.jpg?v=1637158117 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/Women-1.png");
+background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
 background-size: cover;
 padding: 50%
 }
@@ -604,7 +638,7 @@ padding: 50%
 }
 /*Empower women*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_100x100.jpg?v=1637158117 1x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_200x200.jpg?v=1637158117 2x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_300x300.jpg?v=1637158117 3x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_400x400.jpg?v=1637158117 4x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/Women-1.png");
+background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
 background-size: cover;
 padding: 50%
 }
