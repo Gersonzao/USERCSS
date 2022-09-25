@@ -1,10 +1,10 @@
 # UserCSS
 This is a collection of black themes for multiple pages made for whoever uses the latest version of [Firefox](https://www.mozilla.org/firefox/download/thanks/) (Release channel) and [Stylus](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/) (updated from the [AMO (Mozilla Add-ons)](https://addons.mozilla.org/en-GB/firefox/)). It also contains [fixes](#fixes) for very specific things
 
-### My other profiles:
+## My other profiles:
 To be filled
 
-### Translating:
+## Translating:
 Avoid changing the meaning of the least as possible, even if it makes very long sentences<br>
 Do not change the order of the headers<br>
 If you're translating the entire documentation, please put the changelogs as low priority annoyingtypothatimade<br>
@@ -12,16 +12,24 @@ In text inside headers, please use the [ASCII Sort Order](https://support.ecisol
 Your language level in the language you're translating to must be level [C1](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages)+<br>
 You can also review translations by adding TranslationReview to the top of your comment<br>
 
-### Opening an issue:
-Before opening an issue reporting a bug, make sure it happens with the software combination mentioned above and that it doesn't happen when you reload the page. If the bug doesn't happen when you reload the page, don't open anissue
+## Reporting a bug:
+Before opening an issue reporting a bug, make sure it happens with the software combination mentioned above and that it doesn't happen when you reload the page. If the bug doesn't happen when you reload the page, don't open an issue
 
-### <a name="fixes"></a>Other fixes
+## Debloating CSS:
+Replace " {" with "{"<br>
+Replace ", " with "," (review manually, so metadata neither commentaries are mistakenly changed)<br>
+Replace ": " with ":"<br>
+Replace ";'New line'}" with "'New line'}"
+
+Before suggesting another debloat method, note that the code needs to have an approximate readability
+
+## <a name="fixes"></a>Other fixes
 [Ecosia](https://github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements): Fixes FaviconizeGoogle incorrect favicons 
 
-### For specific information about every styles, click the hyperlinks below:
+## For specific information about every styles, click the hyperlinks below:
 [Ecosia](https://github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements) [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.user.css)<br>
 [OpenTabs Search+](https://github.com/Gersonzao/UserCSS/tree/main/OpenTabs%20Search%2B.elements) [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.user.css)
 
-### To-do:
-Create own sorting method on a new repository and mention it in translating<br>
-Archive CEFR page
+## To-do:
+Archive CEFR page<br>
+Create own sorting method on a new repository and mention it in translating
