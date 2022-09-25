@@ -19,8 +19,8 @@ Before opening an issue reporting a bug, make sure it happens with the software 
 [Ecosia](https://github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements): Fixes FaviconizeGoogle incorrect favicons 
 
 ### For specific information about every styles, click the hyperlinks below:
-[Ecosia](https://github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements)<br>
-[OpenTabs Search+](https://github.com/Gersonzao/UserCSS/tree/main/OpenTabs%20Search%2B.elements)
+[Ecosia](https://github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements) [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.user.css)<br>
+[OpenTabs Search+](https://github.com/Gersonzao/UserCSS/tree/main/OpenTabs%20Search%2B.elements) [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.user.css)
 
 ### To-do:
 Create own sorting method on a new repository and mention it in translating<br>
