@@ -1,7 +1,7 @@
 # UserCSS
 This is a collection of black themes for multiple pages made for whoever uses the latest version of [Firefox](https://www.mozilla.org/firefox/download/thanks/) (Release channel) and [Stylus](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/) (updated from the [AMO (Mozilla Add-ons)](https://addons.mozilla.org/en-GB/firefox/)). It also contains [fixes](#fixes) for very specific things
 
-## My other profiles:
+## UserCSS on other platforms:
 To be filled
 
 ## Translating:
