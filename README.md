@@ -1,7 +1,10 @@
 # UserCSS
-This is a collection of black themes for multiple pages made for whoever uses the latest version of [Firefox Extended Support Release](https://www.mozilla.org/en-GB/firefox/all/#product-desktop-esr) (Release channel) and [Stylus](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/) (updated from the [AMO (Mozilla Add-ons)](https://addons.mozilla.org/en-GB/firefox/)). It also contains [fixes](#fixes) for very specific things
+This is a collection of UserStyles (a.k.a. UserCSS/User CSS/user styles) for multiple pages made for whoever uses the latest version of [Firefox Extended Support Release](https://www.mozilla.org/en-GB/firefox/all/#product-desktop-esr) (ESR) and [Stylus](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/) (updated from the [AMO (Mozilla Add-ons)](https://addons.mozilla.org/en-GB/firefox/))
 
 ## UserCSS on other platforms:
+### Repository hosting platforms
+To be filled
+### UserCSS hosting websites
 To be filled
 
 ## Translating:
@@ -24,9 +27,6 @@ Replacing " > " with ">"<br>
 Follow http://chrisnager.github.io/short-color-names/ (only values that reduce the size)
 
 Before suggesting another debloat method, note that the code needs to have an approximate readability
-
-## <a name="fixes"></a>Other fixes
-[Ecosia](https://github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements): Fixes FaviconizeGoogle incorrect favicons 
 
 ## For specific information about every styles, click the hyperlinks below:
 [Ecosia](https://github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements) [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.user.css)<br>
