@@ -19,7 +19,9 @@ Before opening an issue reporting a bug, make sure it happens with the software 
 Replace " {" with "{"<br>
 Replace ", " with "," (review manually, so metadata neither commentaries are mistakenly changed)<br>
 Replace ": " with ":"<br>
-Replace ";'New line'}" with "'New line'}"
+Replace ";'New line'}" with "'New line'}"<br>
+Replacing " > " with ">"<br>
+Follow http://chrisnager.github.io/short-color-names/ (only values that reduce the size)
 
 Before suggesting another debloat method, note that the code needs to have an approximate readability
 
