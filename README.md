@@ -16,7 +16,7 @@ Your language level in the language you're translating to must be level [B2](htt
 You can also review translations by adding TranslationReview to the top of your comment<br>
 
 ## Reporting a bug:
-Before opening an issue reporting a bug, make sure it happens with the software combination mentioned above and that it doesn't happen when you reload the page. If the bug doesn't happen when you reload the page, don't open an issue
+Before doing so, make sure it happens with the software combination mentioned above and that it doesn't happen when you reload the page. If the bug doesn't happen when you reload the page, don't open an issue
 
 ## Debloating CSS:
 Replace " {" with "{"<br>
@@ -29,10 +29,11 @@ Follow http://chrisnager.github.io/short-color-names/ (only values that reduce t
 Before suggesting another debloat method, note that the code needs to have an approximate readability
 
 ## For specific information about every style or a direct link to install them, click the hyperlinks below:
-[Ecosia](http:github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements) [![Install directly with Stylus](http:img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.user.css)<br>
-Messenger Left Sidebar Hider [![Install directly with Stylus](http:img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.user.css)<br>
-[OpenTabs Search+](http:github.com/Gersonzao/UserCSS/tree/main/OpenTabs%20Search%2B.elements) [![Install directly with Stylus](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/Messenger%20Left%20Sidebar%20Hider.user.css)
+[Ecosia](http:github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements) [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.user.css)<br>
+Messenger Left Sidebar Hider [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.user.css)<br>
+[OpenTabs Search+](http//:github.com/Gersonzao/UserCSS/tree/main/OpenTabs%20Search%2B.elements) [![Install directly with Stylus](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.user.css)
 
 ## To-do:
 Archive CEFR page<br>
-Create own sorting method on a new repository and mention it in translating
+Create own sorting method on a new repository and mention it in translating<br>
+Create contributing.md
