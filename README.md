@@ -1,5 +1,5 @@
 # UserCSS
-This is a collection of black themes for multiple pages made for whoever uses the latest version of [Firefox](https://www.mozilla.org/firefox/download/thanks/) (Release channel) and [Stylus](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/) (updated from the [AMO (Mozilla Add-ons)](https://addons.mozilla.org/en-GB/firefox/)). It also contains [fixes](#fixes) for very specific things
+This is a collection of black themes for multiple pages made for whoever uses the latest version of [Firefox Extended Support Release](https://www.mozilla.org/en-GB/firefox/all/#product-desktop-esr) (Release channel) and [Stylus](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/) (updated from the [AMO (Mozilla Add-ons)](https://addons.mozilla.org/en-GB/firefox/)). It also contains [fixes](#fixes) for very specific things
 
 ## UserCSS on other platforms:
 To be filled
@@ -9,7 +9,7 @@ Avoid changing the meaning of the least as possible, even if it makes very long 
 Do not change the order of the headers<br>
 If you're translating the entire documentation, please put the changelogs as low priority annoyingtypothatimade<br>
 In text inside headers, please use the [ASCII Sort Order](https://support.ecisolutions.com/doc-ddms/help/reportsmenu/ascii_sort_order_chart.htm). If the symbols that are being used aren't mentioned in the page, feel free to use your creativity or make a suggestion<br>
-Your language level in the language you're translating to must be level [C1](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages)+<br>
+Your language level in the language you're translating to must be level [B2](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages)+<br>
 You can also review translations by adding TranslationReview to the top of your comment<br>
 
 ## Reporting a bug:
