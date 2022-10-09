@@ -24,14 +24,14 @@ Replace ", " with "," (review manually, so metadata neither commentaries are mis
 Replace ": " with ":"<br>
 Replace ";'New line'}" with "'New line'}"<br>
 Replacing " > " with ">"<br>
-Follow http://chrisnager.github.io/short-color-names/ (only values that reduce the size)
+Follow http:chrisnager.github.io/short-color-names/ (only values that reduce the size)
 
 Before suggesting another debloat method, note that the code needs to have an approximate readability
 
 ## For specific information about every style or a direct link to install them, click the hyperlinks below:
 [Ecosia](http:github.com/Gersonzao/UserCSS/tree/main/Ecosia.css.elements) [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.user.css)<br>
 Messenger Left Sidebar Hider [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.user.css)<br>
-[OpenTabs Search+](http//:github.com/Gersonzao/UserCSS/tree/main/OpenTabs%20Search%2B.elements) [![Install directly with Stylus](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.user.css)
+[OpenTabs Search+](http://github.com/Gersonzao/UserCSS/tree/main/OpenTabs%20Search%2B.elements) [![Install directly with Stylus](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.user.css)
 
 ## To-do:
 Archive CEFR page<br>
