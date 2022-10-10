@@ -1,6 +1,7 @@
 ---
 name: Bug report
-about: Make sure to read `CONTRIBUTING.md` and `CODE_OF_CONDUCT` before opening a bug report
+about: Make sure to read `CONTRIBUTING.md` and `CODE_OF_CONDUCT` before opening a
+  bug report
 title: ''
 labels: bug
 assignees: ''
