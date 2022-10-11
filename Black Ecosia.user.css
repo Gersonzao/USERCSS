@@ -9,7 +9,7 @@
 @updateURL http:userstyles.world/api/style/6564.user.css
 @version 1.0.7
 ==/UserStyle==*/
-@-moz-document domain("ecosia.org"){
+@-moz-document domain(ecosia.org){
 /*FaviconizeGoogle*/
 .favicon{
 	display:none
@@ -846,7 +846,7 @@ table{
 	border-color:silver
 }
 }
-@-moz-document domain("ecosiashop.com"){
+@-moz-document domain(ecosiashop.com){
 :root{
 --tml-menu-background-color:#000;
 --tml-page-background-color:#000
