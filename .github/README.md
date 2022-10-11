@@ -1,5 +1,5 @@
 # UserCSS
-This is a collection of user styles for multiple pages made for whoever uses the latest version of [Firefox Extended Support Release](http:mozilla.org/en-GB/firefox/all/#product-desktop-esr) (ESR) and [Stylus](http:addons.mozilla.org/en-GB/firefox/addon/styl-us/) (updated from the [AMO (Firefox Add-ons) page](http:addons.mozilla.org/en-GB/firefox/))
+This is a collection of user styles for multiple pages made for whoever uses the latest version of [Firefox Extended Support Release](http:mozilla.org/en-GB/firefox/all/#product-desktop-esr) (ESR) and [Stylus](http:addons.mozilla.org/en-GB/firefox/addon/styl-us/) (updated from the [AMO (Firefox Add-ons)](http:addons.mozilla.org/en-GB/firefox/) page)
 
 ## Per-style Info/Direct Installation
 [Black Ecosia](github.com/Gersonzao/UserCSS/blob/main/Ecosia.css.elements/README.md) [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.user.css)<br>
