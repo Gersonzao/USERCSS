@@ -1,11 +1,11 @@
 /*==UserStyle==
-@author Gersonzao <gersonhenzeloficial@gmail.com> (https://github.com/Gersonzao/UserCSS)
+@author Gersonzao <gersonhenzeloficial@gmail.com> (https://github.com/Gersonzao/userCSS)
 @description A dark, black theme for ecosia.org and ecosiashop.com
-@homepageURL http:github.com/Gersonzao/UserCSS
+@homepageURL http:github.com/Gersonzao/userCSS
 @license 0BSD
 @name Black Ecosia
-@namespace http:github.com/Gersonzao/UserCSS
-@supportURL http:github.com/Gersonzao/UserCSS
+@namespace http:github.com/Gersonzao/userCSS
+@supportURL http:github.com/Gersonzao/userCSS
 @updateURL http:userstyles.world/api/style/6564.user.css
 @version 1.0.7
 ==/UserStyle==*/
@@ -516,37 +516,37 @@ hr{
 }
 /*Wildfire relief*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_320x320.jpg?v=1658407397 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/wildfire-relief-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/wildfire-relief-1.png");
 background-size:cover;
 padding:50%
 }
 /*Green game jam*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_320x320.jpg?v=1653387614 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/green-game-jam-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/green-game-jam-1.png");
 background-size:cover;
 padding:50%
 }
 /*Climate action*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_320x320.jpg?v=1637228600 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/Climate-action-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/Climate-action-1.png");
 background-size:cover;
 padding:50%
 }
 /*Urban equity*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_320x320.jpg?v=1645008820 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/urban-equity-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/urban-equity-1.png");
 background-size:cover;
 padding:50%
 }
 /*Wildlife*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_320x320.jpg?v=1637228861 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/Wildlife-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/Wildlife-1.png");
 background-size:cover;
 padding:50%
 }
 /*Impact bundle*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_320x320.jpg?v=1637157971 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/Impact-bundle-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/Impact-bundle-1.png");
 background-size:cover;
 padding:50%
 }
@@ -590,55 +590,55 @@ color:#fff
 }
 /*Empower women*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_480x480.jpg?v=1637158117 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
 background-size:cover;
 padding:50%
 }
 /*Endangered trees*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_480x480.jpg?v=1637157695 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
 background-size:cover;
 padding:50%
 }
 /*Clean water*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_480x480.jpg?v=1637157463 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/clean-water-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/clean-water-1.png");
 background-size:cover;
 padding:50%
 }
 /*Wildfire relief*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_480x480.jpg?v=1658407397 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/wildfire-relief-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/wildfire-relief-1.png");
 background-size:cover;
 padding:50%
 }
 /*Green game jam*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_480x480.jpg?v=1653387614 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/green-game-jam-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/green-game-jam-1.png");
 background-size:cover;
 padding:50%
 }
 /*Climate action*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_480x480.jpg?v=1637228600 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/Climate-action-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/Climate-action-1.png");
 background-size:cover;
 padding:50%
 }
 /*Urban equity*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_480x480.jpg?v=1645008820 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/urban-equity-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/urban-equity-1.png");
 background-size:cover;
 padding:50%
 }
 /*Wildlife*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_480x480.jpg?v=1637228861 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/Wildlife-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/Wildlife-1.png");
 background-size:cover;
 padding:50%
 }
 /*Impact bundle*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_480x480.jpg?v=1637157971 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/Impact-bundle-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/Impact-bundle-1.png");
 background-size:cover;
 padding:50%
 }
@@ -649,19 +649,19 @@ padding:50%
 }
 /*Empower women*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_320x320.jpg?v=1637158117 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
 background-size:cover;
 padding:50%
 }
 /*Endangered trees*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_320x320.jpg?v=1637157695 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
 background-size:cover;
 padding:50%
 }
 /*Clean water*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_320x320.jpg?v=1637157463 1.00x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/clean-water-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/clean-water-1.png");
 background-size:cover;
 padding:50%
 }
@@ -694,55 +694,55 @@ padding:50%
 /*Cart items*/
 /*Wildfire relief*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_100x100.jpg?v=1658407397 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_200x200.jpg?v=1658407397 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_300x300.jpg?v=1658407397 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_400x400.jpg?v=1658407397 4x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/wildfire-relief-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/wildfire-relief-1.png");
 background-size:cover;
 padding:50%
 }
 /*Green game jam*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_100x100.jpg?v=1653387614 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_200x200.jpg?v=1653387614 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_300x300.jpg?v=1653387614 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_400x400.jpg?v=1653387614 4x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/green-game-jam-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/green-game-jam-1.png");
 background-size:cover;
 padding:50%
 }
 /*Climate action*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_100x100.jpg?v=1637228600 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_200x200.jpg?v=1637228600 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_300x300.jpg?v=1637228600 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_400x400.jpg?v=1637228600 4x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/Climate-action-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/Climate-action-1.png");
 background-size:cover;
 padding:50%
 }
 /*Urban equity*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_100x100.jpg?v=1645008820 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_200x200.jpg?v=1645008820 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_300x300.jpg?v=1645008820 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_400x400.jpg?v=1645008820 4x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/urban-equity-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/urban-equity-1.png");
 background-size:cover;
 padding:50%
 }
 /*Wildlife*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_100x100.jpg?v=1637228861 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_200x200.jpg?v=1637228861 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_300x300.jpg?v=1637228861 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_400x400.jpg?v=1637228861 4x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/Wildlife-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/Wildlife-1.png");
 background-size:cover;
 padding:50%
 }
 /*Impact bundle*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_100x100.jpg?v=1637157971 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_200x200.jpg?v=1637157971 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_300x300.jpg?v=1637157971 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_400x400.jpg?v=1637157971 4x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org/Impact-bundle-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org/Impact-bundle-1.png");
 background-size:cover;
 padding:50%
 }
 /*Empower women*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_100x100.jpg?v=1637158117 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_200x200.jpg?v=1637158117 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_300x300.jpg?v=1637158117 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_400x400.jpg?v=1637158117 4x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
 background-size:cover;
 padding:50%
 }
 /*Endangered trees*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_100x100.jpg?v=1637157695 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_200x200.jpg?v=1637157695 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_300x300.jpg?v=1637157695 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_400x400.jpg?v=1637157695 4x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
 background-size:cover;
 padding:50%
 }
 /*Clean water*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_100x100.jpg?v=1637157463 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_200x200.jpg?v=1637157463 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_300x300.jpg?v=1637157463 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_400x400.jpg?v=1637157463 4x"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/clean-water-1.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black Ecosia.elements/plant.ecosia.org%20collections%20trees/clean-water-1.png");
 background-size:cover;
 padding:50%
 }
