@@ -1,6 +1,6 @@
 ## Reporting a bug:
 Before reporting a bug, make sure that:
-1: You've read the specific readme file for the style on which you're reporting (available in the root `README.md`)
+1: You've read the specific readme file for the style on which you're reporting (available in the root [README.md](./README.md)
 2: It happens with Firefox ESR (latest version) and Stylus (latest version available on the AMO page)
 3: It doesn't happen when you reload the page
 
@@ -9,7 +9,7 @@ Avoid changing the meaning of the sencentes the least as possible, even if it ma
 Do not change the order of the headers<br>
 If you're translating the entire documentation, please put the changelogs as low priority annoyingtypothatimade<br>
 In text inside headers, please use the [ASCII Sort Order](http:support.ecisolutions.com/doc-ddms/help/reportsmenu/ascii_sort_order_chart.htm). If the symbols that are being used aren't mentioned in the page, feel free to use your creativity or make a suggestion<br>
-Your language level in the language you're translating to must be level [B2](http:en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages)+<br>
+Your language level in the language you're translating to must be level [B2](http:en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages) or higher<br>
 You can also review translations by adding TranslationReview to the top of your comment<br>
 
 ## Upvoting:
