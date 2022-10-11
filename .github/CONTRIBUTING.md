@@ -1,6 +1,6 @@
 ## Reporting a bug:
 Before reporting a bug, make sure that:
-1: You've read the specific readme file for the style on which you're reporting (available in the root [README.md](./README.md)
+1: You've read the specific readme file for the style on which you're reporting (available in the root [README.md](./README.md))
 2: It happens with Firefox ESR (latest version) and Stylus (latest version available on the AMO page)
 3: It doesn't happen when you reload the page
 
