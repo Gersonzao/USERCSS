@@ -6,7 +6,8 @@
 3: Delete the content as shown in the image below and the empty line that it creates<br>
 ![image](https://user-images.githubusercontent.com/85644671/191157468-a74e6c87-410c-4295-92e0-d3d716f5db80.png)<br>
 4: Save it and apply to you style manager<br>
-5: Done!
+5: Done!<br>
+**This will soon be probably made easier with only mouse clicks!**
 ## Known issues
 blog.ecosia.org language select border isn't blacked<br>
 ecosiashop.com isn't blacked properly<br>
