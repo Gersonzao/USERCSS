@@ -1,16 +1,18 @@
 /*==UserStyle==
-@author Gersonzao
+@author Gersonzao <gersonhenzeloficial@gmail.com> (https://github.com/Gersonzao/UserCSS)
 @description A dark, black theme for ecosia.org and ecosiashop.com
 @homepageURL http:github.com/Gersonzao/UserCSS
+@license 0BSD
 @name Black Ecosia
-@namespace github.com/openstyles/stylus
+@namespace http:github.com/Gersonzao/UserCSS
+@supportURL http:github.com/Gersonzao/UserCSS
 @updateURL http:userstyles.world/api/style/6564.user.css
-@version 1.0.6
+@version 1.0.7
 ==/UserStyle==*/
 @-moz-document domain("ecosia.org"){
 /*FaviconizeGoogle*/
-.favicon {
-	display: none
+.favicon{
+	display:none
 }
 /*Color index*/
 :root{
@@ -31,6 +33,7 @@
 --color-disabled:#000;
 --color-elevation-layer-1:#000;
 --color-elevation-layer-2:#000;
+--color-financial-report-total-background:#000;
 --color-form-border-default:#000;
 --color-form-border-primary-active:#000;
 --color-link-primary:#fff;
@@ -39,9 +42,13 @@
 --color-link-results-visited:#bb8af9;
 --color-highlighter:#111;
 --color-highlight-primary:#111;
+--color-projects-title:#000;
+--color-projects-description:#000;
+--color-section-header-subtitle-variant:#fff;
+--color-section-wrapper-background-gray:#000;
 --color-text-primary:#fff;
 --color-text-secondary:#fff;
---color-url:#c0c0c0;
+--color-url:silver;
 --text-color:#fff
 }
 /*Background color*/
@@ -49,84 +56,154 @@ body{
 color:#fff;
 	background-color:#000
 }
+/*Browser check subtext and footer text*/
+h1{
+	color:#808080
+}
 /*Search*/
+/*Logo color*/
 .logo__icon{
 color:#fff
 }
-/*Counter pop-out Learn more hyperlink color*/
-.personal-counter-content__body > a:nth-child(2){
-color:#c0c0c0
+/*Search button color*/
+.icon--icon-search{
+color:#fff
 }
-/*Counter pop-out text*/
-.personal-counter-content[data-v-9fa15ab4]{
-	color:#fff
+/*Search button border color after hover*/
+.search-form__submit{
+border-color:#000!important
 }
-/*Counter pop-out Sign out*/
+/*Counter pop-out sign color*/
+.personal-counter-content__notify{
+color:#fff
+}
+/*Counter pop-out learn more hyperlink color*/
+.link--color-secondary[data-v-b4e44ddc]{
+	color:silver
+}
+/*Counter pop-out Sign in/out color*/
 .link--color-primary[data-v-b4e44ddc]{
-	color:#c0c0c0
+	color:silver
+}
+/*Login page hyperlinks color*/
+.login__description[data-v-29ddce58] a,.login__privacy[data-v-29ddce58] a{
+	color:#808080
+}
+/*Login page "Send again" hyperlink color*/
+[data-v-39159b69] a{
+	color:#808080
 }
 /*News color*/
 .notification-pill{
 color:#fff!important
 }
-/*News pop-out More news color*/
-.link--color-primary [data-v-b4e44ddc]{
-	color:#fff
+/*More news color*/
+.more{
+color:#fff!important
 }
 /*Hamburger color*/
 .icon--icon-hamburger{
 color:#fff
 }
-/*Search filters dropdown color*/
-.search-filters[data-v-5ec1316c]{
-	color: #fff
+/*Search filters dropdowns color*/
+.modal-dropdown__content{
+color:#fff
 }
 /*No result text color*/
 .message-tips[data-v-4a5601a4]{
-	color: #fff
+	color:#fff
+}
+/*Active tab bottom line color*/
+.tab--highlighted[data-v-6211f683]::after{
+background-color:#008009
+}
+/*Shop left gradient*/
+.snippet--product-ads .snippet__carousel--end[data-v-1c05de85]::before,.snippet--product-ads .snippet__carousel[data-v-1c05de85]:not(.snippet__carousel--start):not(.snippet__carousel--end)::before{
+	background:linear-gradient(270deg,#fff0 0,#000)
+}
+/*Shop right gradient*/
+.snippet--product-ads .snippet__carousel--start[data-v-1c05de85]::after,.snippet--product-ads .snippet__carousel[data-v-1c05de85]:not(.snippet__carousel--start):not(.snippet__carousel--end)::after{
+	background:linear-gradient(90deg,#fff0 0,#000)
+}
+/*Shop price color*/
+.product-ads-carousel__price[data-v-3c4407dc]{
+	color:#fff
+}
+/*Shop store color*/
+.product-ads-carousel__source[data-v-3c4407dc]{
+	color:silver
+}
+/*Shop shipping price color*/
+.product-ads-carousel__info[data-v-3c4407dc]{
+	color:#808080
+}
+/*Word definition color 2*/
+.word-definitions__definition[data-v-5f60a46b]{
+	list-style:decimal outside;
+	color:silver
+}
+/*Word definition pronunciation color*/
+.word-definitions__pronunciation[data-v-5f60a46b]{
+	color:silver
 }
 /*Ad color*/
 .ecosia-label[data-v-1bba0507]{
 	color:#ffa000
 }
-/*Active tab bottom line color*/
-.tab--highlighted[data-v-514dfd22]::after, .tab--highlighted[data-v-514dfd22]:focus-within::after, .tab--highlighted[data-v-514dfd22]:hover::after{
-	background-color: var(--color-brand-primary)
+/*Translation to *language* color*/
+.instant-answer__context[data-v-3e41b8f4]{
+	color:#fff
 }
-/*Search text*/
+/*Translation (translated) color*/
+.translation-pair{
+color:#fff
+}
+/*Result link first part color*/
+.result__source .source__content--domain[data-v-1c584a7e]{
+	color:silver
+}
+/*Result link second part color*/
+.result__source[data-v-1c584a7e]{
+	color:#a0a0a0
+}
+/*Result description color*/
 .layout[data-v-1352b31e]{
 	color:#808080
+}
+/*Climate pledge waves background*/
+.climate-pledge-info__content[data-v-2b302952]{
+	background-image:none
 }
 /*Search queries links part*/
 .result__source[data-v-008b2db9]{
 	color:#808080
-}
-/*Related searches color (containing the same query)*/
-.related-queries__text[data-v-372398fe]{
-	color:#808080;
 }
 /*Current page text color*/
 .pagination__page--current[data-v-7f2c0350]{
 	color:#fff
 }
 /*Images left button surrounding gradient color*/
-.query-expansions__control-background--left[data-v-5fe9659e] {
-	background: linear-gradient(270deg,#fff0,#000 30%,var(--color-background-primary))
+.query-expansions__control-background--left[data-v-5fe9659e]{
+	background:linear-gradient(270deg,#fff0,#000 30%,var(--color-background-primary))
 }
 /*Images right button surrounding gradient color*/
-.query-expansions__control-background--right[data-v-5fe9659e] {
-	background: linear-gradient(90deg,#fff0,#000 30%,var(--color-background-primary))
+.query-expansions__control-background--right[data-v-5fe9659e]{
+	background:linear-gradient(90deg,#fff0,#000 30%,var(--color-background-primary))
+}
+/*Transparent image borders fix*/
+.image-preview__image[data-v-72ba2a9a]{
+	background:#000
 }
 /*Image result title*/
-.image-result__details-title[data-v-353b9075]{
+.image-result__details-title{
 	color:#fff
 }
 /*Image result description*/
-.image-result__details-source[data-v-353b9075]{
-	color:#808080
+.image-result__details-source{
+	color:#808080!important
 }
 /*Page buttons hover*/
-.base-button--variant-solid-white.base-button--force-hover[data-v-4913d094], .base-button--variant-solid-white[data-v-4913d094]:hover{
+.base-button--variant-solid-white.base-button--force-hover[data-v-4913d094],.base-button--variant-solid-white[data-v-4913d094]:hover{
 	background-color:#111
 }
 /*Settings menu text color*/
@@ -142,23 +219,43 @@ color:#fff
 	color:#fff!important;
 	background-color:#111
 }
+/*Related queries color*/
+.related-queries__link-bottom[data-v-770f90b6]{
+	color:#fff
+}
+/*Bottom card shadow*/
+.card[data-v-42ea88c0]{
+	box-shadow:none
+}
+/*Right side info card middle border color*/
+.sources-feedback--responsive[data-v-e4d3bef8],.sources-feedback--responsive.sources-feedback--divider[data-v-e4d3bef8]{
+	border-color:#050505
+}
+/*Right side info card background color*/
+.entity[data-v-3f4236ee]{
+	background-color:#050505
+}
+/*Right side info buttons collors*/
+.link-bubble--size-m[data-v-8bd4bad4]{
+	background-color:#000;
+	color:#fff
+}
 /*Settings*/
 /*Text color*/
 .settings__form[data-v-25767cb0]{
-	color: #fff
+	color:#fff
 }
 /*Text description*/
 .field__description[data-v-02a00247]{
-	color: #808080
+	color:#808080
 }
-/*OptiSearch support*/
-/*Hyperlink color*/
+/*OptiSearch hyperlink color*/
 .optipanel .title{
-	color:#8ab4f8
+	color:var(--color-link-results-default)
 }
 /*ecosia.org*/
 /*Main section background*/
-.above-fold-section[data-v-2d7eb42d]{
+.above-fold-section[data-v-96cb5950],.above-fold-section__wave[data-v-96cb5950]{
 	background-color:#000
 }
 /*Main section logo*/
@@ -169,22 +266,17 @@ color:#808080
 .indexpage-forest--addon[data-v-0a6b427c]{
 	background-color:#000
 }
-/*Section Two title and text*/
-.projects-section__project-description[data-v-be4927fa], .projects-section__project-title[data-v-be4927fa]{
-	color:#000
-}
-/*Section Two button text*/
-.base-button--variant-outline[data-v-4913d094]{
-	color:#000
+/*Section Two background*/
+.forest-section__forest-visible[data-v-826bb624]{
+	background-color:#000
 }
 /*Section Two+ logo*/
 .index-header__logo[data-v-7dd8a73c]{
 	color:#fff
 }
-/*'Discover all projects' button active state*/
-.base-button--variant-solid-white[data-v-4913d094]:active{
-	background-color:#000;
-	border-color:#000
+/*Section Four subtext color*/
+.before-after-section__text[data-v-cad9753c]{
+	color:#fff
 }
 /*Section Five background*/
 .section-wrapper--gray[data-v-37e9beaa]{
@@ -201,7 +293,7 @@ color:#808080
 }
 /*Search button*/
 .toggle-search-button{
-filter: brightness(100)
+filter:brightness(100)
 }
 /*Search pop-out background*/
 .c-search{
@@ -219,7 +311,7 @@ color:#fff
 /*Search box close*/
 .c-search__close{
 	background-color:#000;
-	border: 1px solid#fff
+	border:1px solid#fff
 }
 /*Search box close x*/
 .c-search__close .icon{
@@ -249,7 +341,7 @@ border-color:#000
 /*Language select*/
 .c-language-select{
 border-color:#000!important;
-filter: brightness(100)
+filter:brightness(100)
 }
 /*Language select boxes*/
 .c-language-select option{
@@ -278,7 +370,7 @@ color:#fff
 	background-color:#000
 }
 .c-footer__wave{
-	filter: brightness(0)
+	filter:brightness(0)
 }
 /*Footer links*/
 .c-footer__gdpr li a{
@@ -307,7 +399,7 @@ color:#fff
 }
 /*Sidebar titles color*/
 .c-teaser__title{
-	color:#c0c0c0
+	color:silver
 }
 /*Tags*/
 .c-tags a{
@@ -334,7 +426,7 @@ color:#fff
 }
 /*Burger color*/
 .icon svg[data-v-e0e1d24a]{
-	filter: invert(100%)
+	filter:invert(100%)
 }
 /*Menu background color*/
 .module-transparent-header__menu__dropdown{
@@ -362,11 +454,11 @@ color:#fff
 }
 /*Social links icons*/
 .social-share__link[data-v-4bcf86fa]{
-	filter: invert(100%)
+	filter:invert(100%)
 }
 /*B corporation logo*/
 .footer__logo img{
-	filter: invert(26.5%)
+	filter:invert(26.5%)
 }
 /*explore.ecosia.org/ecosia-search-tos*/
 /*Logo*/
@@ -390,7 +482,7 @@ fill:#000
 /*info.ecosia.org/privacy*/
 /*Read more background*/
 .privacy-policy .read-more{
-	background-image: linear-gradient(to bottom,#fff0 0%,#000 20%,#000 100%)
+	background-image:linear-gradient(to bottom,#fff0 0%,#000 20%,#000 100%)
 }
 /*info.ecosia.org/what*/
 /*Logo*/
@@ -411,7 +503,7 @@ fill:#000
 }
 /*End hr*/
 hr{
-	visibility: hidden
+	visibility:hidden
 }
 /*plant.ecosia.org*/
 /*Header color*/
@@ -424,42 +516,42 @@ hr{
 }
 /*Wildfire relief*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_320x320.jpg?v=1658407397 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/wildfire-relief-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/wildfire-relief-1.png");
+background-size:cover;
+padding:50%
 }
 /*Green game jam*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_320x320.jpg?v=1653387614 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/green-game-jam-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/green-game-jam-1.png");
+background-size:cover;
+padding:50%
 }
 /*Climate action*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_320x320.jpg?v=1637228600 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Climate-action-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Climate-action-1.png");
+background-size:cover;
+padding:50%
 }
 /*Urban equity*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_320x320.jpg?v=1645008820 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/urban-equity-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/urban-equity-1.png");
+background-size:cover;
+padding:50%
 }
 /*Wildlife*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_320x320.jpg?v=1637228861 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Wildlife-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Wildlife-1.png");
+background-size:cover;
+padding:50%
 }
 /*Impact bundle*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_320x320.jpg?v=1637157971 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Impact-bundle-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Impact-bundle-1.png");
+background-size:cover;
+padding:50%
 }
 /*Title color*/
-.default-style .section-title, .default-style h1, .default-style h2, .default-style h3, .default-style h4, .default-style h5, .default-style h6{
+.default-style .section-title,.default-style h1,.default-style h2,.default-style h3,.default-style h4,.default-style h5,.default-style h6{
 	color:#fff
 }
 /*Section three background*/
@@ -467,7 +559,7 @@ padding: 50%
 	background-color:#000
 }
 /*Section text color*/
-.contrast-style .product-list-item-title, .contrast-style .section-title, .contrast-style h1, .contrast-style h2, .contrast-style h3, .contrast-style h4, .contrast-style h5, .contrast-style h6{
+.contrast-style .product-list-item-title,.contrast-style .section-title,.contrast-style h1,.contrast-style h2,.contrast-style h3,.contrast-style h4,.contrast-style h5,.contrast-style h6{
 	color:#fff
 }
 /*Footer color*/
@@ -476,7 +568,7 @@ padding: 50%
 }
 /*plant.ecosia.org/collections*/
 /*Title color*/
-h1, h3, h4, h5, h6{
+h1,h3,h4,h5,h6{
 	color:#fff
 }
 /*plant.ecosia.org/collections//*/
@@ -498,57 +590,57 @@ color:#fff
 }
 /*Empower women*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_480x480.jpg?v=1637158117 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
+background-size:cover;
+padding:50%
 }
 /*Endangered trees*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_480x480.jpg?v=1637157695 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
+background-size:cover;
+padding:50%
 }
 /*Clean water*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_480x480.jpg?v=1637157463 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/clean-water-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/clean-water-1.png");
+background-size:cover;
+padding:50%
 }
 /*Wildfire relief*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_480x480.jpg?v=1658407397 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/wildfire-relief-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/wildfire-relief-1.png");
+background-size:cover;
+padding:50%
 }
 /*Green game jam*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_480x480.jpg?v=1653387614 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/green-game-jam-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/green-game-jam-1.png");
+background-size:cover;
+padding:50%
 }
 /*Climate action*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_480x480.jpg?v=1637228600 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Climate-action-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Climate-action-1.png");
+background-size:cover;
+padding:50%
 }
 /*Urban equity*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_480x480.jpg?v=1645008820 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/urban-equity-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/urban-equity-1.png");
+background-size:cover;
+padding:50%
 }
 /*Wildlife*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_480x480.jpg?v=1637228861 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Wildlife-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Wildlife-1.png");
+background-size:cover;
+padding:50%
 }
 /*Impact bundle*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_480x480.jpg?v=1637157971 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Impact-bundle-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Impact-bundle-1.png");
+background-size:cover;
+padding:50%
 }
 /*plant.ecosia.org/collections/trees*/
 /*Subtitles*/
@@ -557,21 +649,21 @@ padding: 50%
 }
 /*Empower women*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_320x320.jpg?v=1637158117 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
+background-size:cover;
+padding:50%
 }
 /*Endangered trees*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_320x320.jpg?v=1637157695 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
+background-size:cover;
+padding:50%
 }
 /*Clean water*/
 [srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_320x320.jpg?v=1637157463 1.00x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/clean-water-1.png");
-background-size: cover;
-padding: 50%
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/clean-water-1.png");
+background-size:cover;
+padding:50%
 }
 /*plant.ecosia.org/cart*/
 /*First line color*/
@@ -587,83 +679,83 @@ padding: 50%
 	border-color:#000
 }
 /*Quantity*/
-.line-item-quantity-input {
+.line-item-quantity-input{
 	background-color:#000;
 	color:#fff
 }
-.line-item-quantity-decrement {
+.line-item-quantity-decrement{
 	color:#fff;
 	border-color:#000
 }
-.line-item-quantity-increment {
+.line-item-quantity-increment{
 	color:#fff;
 	border-color:#000
 }
 /*Cart items*/
 /*Wildfire relief*/
-[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_100x100.jpg?v=1658407397 1x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_200x200.jpg?v=1658407397 2x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_300x300.jpg?v=1658407397 3x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_400x400.jpg?v=1658407397 4x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/wildfire-relief-1.png");
-background-size: cover;
-padding: 50%
+[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_100x100.jpg?v=1658407397 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_200x200.jpg?v=1658407397 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_300x300.jpg?v=1658407397 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/wildfire-relief-1_400x400.jpg?v=1658407397 4x"]{
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/wildfire-relief-1.png");
+background-size:cover;
+padding:50%
 }
 /*Green game jam*/
-[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_100x100.jpg?v=1653387614 1x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_200x200.jpg?v=1653387614 2x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_300x300.jpg?v=1653387614 3x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_400x400.jpg?v=1653387614 4x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/green-game-jam-1.png");
-background-size: cover;
-padding: 50%
+[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_100x100.jpg?v=1653387614 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_200x200.jpg?v=1653387614 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_300x300.jpg?v=1653387614 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/green-game-jam-1_400x400.jpg?v=1653387614 4x"]{
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/green-game-jam-1.png");
+background-size:cover;
+padding:50%
 }
 /*Climate action*/
-[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_100x100.jpg?v=1637228600 1x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_200x200.jpg?v=1637228600 2x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_300x300.jpg?v=1637228600 3x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_400x400.jpg?v=1637228600 4x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Climate-action-1.png");
-background-size: cover;
-padding: 50%
+[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_100x100.jpg?v=1637228600 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_200x200.jpg?v=1637228600 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_300x300.jpg?v=1637228600 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Climate-action-1_400x400.jpg?v=1637228600 4x"]{
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Climate-action-1.png");
+background-size:cover;
+padding:50%
 }
 /*Urban equity*/
-[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_100x100.jpg?v=1645008820 1x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_200x200.jpg?v=1645008820 2x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_300x300.jpg?v=1645008820 3x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_400x400.jpg?v=1645008820 4x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/urban-equity-1.png");
-background-size: cover;
-padding: 50%
+[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_100x100.jpg?v=1645008820 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_200x200.jpg?v=1645008820 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_300x300.jpg?v=1645008820 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/urban-equity-1_400x400.jpg?v=1645008820 4x"]{
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/urban-equity-1.png");
+background-size:cover;
+padding:50%
 }
 /*Wildlife*/
-[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_100x100.jpg?v=1637228861 1x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_200x200.jpg?v=1637228861 2x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_300x300.jpg?v=1637228861 3x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_400x400.jpg?v=1637228861 4x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Wildlife-1.png");
-background-size: cover;
-padding: 50%
+[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_100x100.jpg?v=1637228861 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_200x200.jpg?v=1637228861 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_300x300.jpg?v=1637228861 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Wildlife-1_400x400.jpg?v=1637228861 4x"]{
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Wildlife-1.png");
+background-size:cover;
+padding:50%
 }
 /*Impact bundle*/
-[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_100x100.jpg?v=1637157971 1x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_200x200.jpg?v=1637157971 2x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_300x300.jpg?v=1637157971 3x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_400x400.jpg?v=1637157971 4x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Impact-bundle-1.png");
-background-size: cover;
-padding: 50%
+[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_100x100.jpg?v=1637157971 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_200x200.jpg?v=1637157971 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_300x300.jpg?v=1637157971 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Impact-bundle-1_400x400.jpg?v=1637157971 4x"]{
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org/Impact-bundle-1.png");
+background-size:cover;
+padding:50%
 }
 /*Empower women*/
-[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_100x100.jpg?v=1637158117 1x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_200x200.jpg?v=1637158117 2x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_300x300.jpg?v=1637158117 3x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_400x400.jpg?v=1637158117 4x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
-background-size: cover;
-padding: 50%
+[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_100x100.jpg?v=1637158117 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_200x200.jpg?v=1637158117 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_300x300.jpg?v=1637158117 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Women-1_400x400.jpg?v=1637158117 4x"]{
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css.elements/plant.ecosia.org%C2%A8collections%C2%A8trees/Women-1.png");
+background-size:cover;
+padding:50%
 }
 /*Endangered trees*/
-[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_100x100.jpg?v=1637157695 1x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_200x200.jpg?v=1637157695 2x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_300x300.jpg?v=1637157695 3x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_400x400.jpg?v=1637157695 4x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
-background-size: cover;
-padding: 50%
+[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_100x100.jpg?v=1637157695 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_200x200.jpg?v=1637157695 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_300x300.jpg?v=1637157695 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/Endangered-trees-1_400x400.jpg?v=1637157695 4x"]{
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/Endangered-trees-1.png");
+background-size:cover;
+padding:50%
 }
 /*Clean water*/
-[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_100x100.jpg?v=1637157463 1x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_200x200.jpg?v=1637157463 2x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_300x300.jpg?v=1637157463 3x, //cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_400x400.jpg?v=1637157463 4x"]{
-background-image: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/clean-water-1.png");
-background-size: cover;
-padding: 50%
+[srcset="//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_100x100.jpg?v=1637157463 1x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_200x200.jpg?v=1637157463 2x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_300x300.jpg?v=1637157463 3x,//cdn.shopify.com/s/files/1/0506/3055/7870/products/clean-water-1_400x400.jpg?v=1637157463 4x"]{
+background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/Ecosia.css/plant.ecosia.org%20collections%20trees/clean-water-1.png");
+background-size:cover;
+padding:50%
 }
 /*plant.ecosia.org/checkouts*/
 /*Left background*/
-.wJzc6, .wJzc6._1Ty2x ._2nwuM{
+.wJzc6,.wJzc6._1Ty2x ._2nwuM{
 	background-color:#000
 }
 /*Right background*/
-._2xJx_, ._2xJx_._1Ty2x ._2nwuM{
+._2xJx_,._2xJx_._1Ty2x ._2nwuM{
 	background-color:#000
 }
-/*Information, Euro and " x" color*/
+/*Information,Euro and "€x" color*/
 ._19gi7ytb{
 	color:#fff
 }
@@ -693,7 +785,7 @@ color:#888
 }
 /*Contry/Region subtext color*/
 ._23HvW:dir(ltr){
-	color:#c0c0c0
+	color:silver
 }
 /*Country/Region border color*/
 ._3RVyp:dir(ltr){
@@ -704,7 +796,7 @@ border-color:#000
 border-color:#000
 }
 /*Border colors*/
-._1h3po420 ._1h3po423 {
+._1h3po420 ._1h3po423{
 	border-color:#000
 }
 /*plant.ecosia.org/pages/faq*/
@@ -714,7 +806,7 @@ border-color:#000
 }
 /*plant.ecosia.org/policies/privacy-policy*/
 /*Titles color*/
-th, b, strong{
+th,b,strong{
 	color:#fff
 }
 /*Table left borders color*/
@@ -745,6 +837,14 @@ table{
 .disclosure-list__item:active{
 	background-color:#111
 }
+/*Uninstall page wave color*/
+.uninstall-cover-image__wave[data-v-25f542d7]{
+	background-color:#000
+}
+/*Uninstall page checkboxes*/
+.radio[data-v-244c7dae]::before{
+	border-color:silver
+}
 }
 @-moz-document domain("ecosiashop.com"){
 :root{
@@ -758,9 +858,9 @@ background-color:#000
 	background-color:#000
 }
 .shell-footer[data-v-7f6c312e]{
-	filter: invert(100%)
+	filter:invert(100%)
 }
 .goog-te-gadget-simple{
-	filter: invert(100%)
+	filter:invert(100%)
 }
 }
