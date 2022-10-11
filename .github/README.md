@@ -12,4 +12,3 @@ Create own sorting method on a new repository and mention it in translating
 
 ## Disclaimer
 By interacting in any form with this project, you confirm that you have read, agreed and understood [CONTRIBUTING.md](github.com/Gersonzao/UserCSS/tree/main/.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](github.com/Gersonzao/UserCSS/tree/main/.github/CODE_OF_CONDUCT.md)<br>
-By opening an issue in this project, you confirm that you have read, agreed and unserstood [CONTRIBUTING.md](github.com/Gersonzao/UserCSS/tree/main/.github/CONTRIBUTING.md) 
