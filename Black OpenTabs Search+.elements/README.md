@@ -4,10 +4,18 @@ Homepage Jacobs Startup Competition vector background isn't blacked<br>
 Icons (except for Google) on "More" submenu on searches aren't contrasted<br>
 Giraffe image in searches with no queries isn't darkened<br>
 ## Changelog:
+**1.0.6**<br>
+Added `@license`<br>
+Added `@supportURL`<br>
+Added more information about the author<br>
+Debloated<br>
+Enhanced contrast<br>
+Fixed `@namespace`<br>
+Removed title bar, search bar and autocomplete shadows<br>
 **1.0.5**<br>
 Added support for the entire OpenTabs domain<br>
 Compacted metadata<br>
-Fixed `updateURL`so that updates work<br>
+Fixed `updateURL` so that updates work<br>
 Fixed next and previous image buttons colors
 Rearranged metadata to alphabetical<br>
 Updated description to match UserStyles.world<br>
