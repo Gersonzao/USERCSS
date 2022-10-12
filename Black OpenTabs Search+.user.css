@@ -1,13 +1,15 @@
 /*==UserStyle==
-@author Gersonzao
+@author Gersonzao <gersonhenzeloficial@gmail.com> (https://github.com/Gersonzao/userCSS)
 @description A dark, black theme for OpenTabs Search and the rest of the OpenTabs domain
 @homepageURL http:github.com/Gersonzao/Black-OpenTabs-Search
+@license 0BSD
 @name Black OpenTabs Search
-@namespace github.com/openstyles/stylus
+@namespace http:github.com/Gersonzao/userCSS
+@supportURL http:github.com/Gersonzao/userCSS
 @updateURL http:userstyles.world/api/style/6522.user.css
-@version 1.0.5
+@version 1.0.6
 ==/UserStyle==*/
-@-moz-document domain("opentabs.org"){
+@-moz-document domain(opentabs.org){
 /*Color index*/
 :root{
 --app-background:#000;
@@ -27,7 +29,7 @@ color:#fff
 }
 /*Section 1-2 gradient*/
 .Home_transparency__32IEK{
-	background: linear-gradient(0deg,#808080,#fff0)
+	background:linear-gradient(0deg,#808080,#fff0)
 }
 /*Section 1-2 recognition square background*/
 .Recognition_recognition__1rNVB{
@@ -55,15 +57,15 @@ color:#fff
 }
 /*Section 2-3 gradient*/
 .Method_outerContainer__1exSj{
-	background: linear-gradient(0deg,#fff 14.23%,#fff0 46.27%,#ffffff1a 55.04%,#808080 98.48%),url(/static/media/cloudy-sky.580b1574.png)
+	background:linear-gradient(0deg,#fff 14.23%,#fff0 46.27%,#ffffff1a 55.04%,#808080 98.48%),url(/static/media/cloudy-sky.580b1574.png)
 }
 /*Section 3 text color*/
-.Method_descriptionContainer__olGn6, .Method_descriptionElement__2BKSh{
+.Method_descriptionContainer__olGn6,.Method_descriptionElement__2BKSh{
 	color:#fff
 }
 /*Section 5 squares colors*/
 .Card_card__2iv_l{
-	background: linear-gradient(180deg,#111,#000000c9);
+	background:linear-gradient(180deg,#111,#000000c9);
 color:#fff
 }
 /*Section 7 squares background color*/
@@ -79,7 +81,7 @@ color:#fff
 	color:#fff
 }
 /*Section 7 buttons background*/
-.leftCarouselButton, .rightCarouselButton{
+.leftCarouselButton,.rightCarouselButton{
 	background:#000
 }
 /*Section 8 squares colors*/
@@ -89,15 +91,15 @@ color:#fff
 }
 /*End background*/
 .Home_fade__3RdII{
-	background: linear-gradient(0deg,#808080 55.05%,#0000)
+	background:linear-gradient(0deg,#808080 55.05%,#0000)
 }
 /*Footer title color*/
 .Footer_contentful__RRb9m > h2{
-	filter: contrast(1.75)
+	filter:contrast(1.75)
 }
 /*Footer links color*/
 .Footer_linksContainer__1ZFhW > div > a{
-	filter: contrast(1.75)
+	filter:contrast(1.75)
 }
 /*Footer subtext color*/
 .Footer_contentful__RRb9m > p{
@@ -114,11 +116,11 @@ color:#fff
 /*opentabs.org/about*/
 /*Section 1-2 start gradient*/
 .About_hero__2xK-H{
-	background: linear-gradient(0,#808080,#fff0 30%),url(/static/media/texture-2.c36587f3.png) no-repeat 50%
+	background:linear-gradient(0,#808080,#fff0 30%),url(/static/media/texture-2.c36587f3.png) no-repeat 50%
 }
 /*Section 1-2 end gradient*/
 .About_transparency__1aYbN{
-	background: linear-gradient(0,#fff0,#808080),linear-gradient(0,#808080,#808080)
+	background:linear-gradient(0,#fff0,#808080),linear-gradient(0,#808080,#808080)
 }
 /*Section 2 text color*/
 .Attribute_card__1IQeJ p{
@@ -126,15 +128,15 @@ color:#fff
 }
 /*Section 2 numbers color contrast*/
 .Attribute_card__1IQeJ .Attribute_svgNumbers__2_M5C{
-	filter: contrast(100)
+	filter:contrast(100)
 }
 /*Section 2-3 gradient*/
 .About_cloudyGradientTexture__IYMep{
-	background: linear-gradient(180deg,#808080,hsla(0,0%,100%,0) 30%),url(/static/media/texture-5.f7ae8289.png) no-repeat bottom
+	background:linear-gradient(180deg,#808080,#fff0 30%),url(/static/media/texture-5.f7ae8289.png) no-repeat bottom
 }
 /*Footer color*/
 .About_fade__1080R{
-	background: linear-gradient(0deg,#808080 55.05%,#fff0)
+	background:linear-gradient(0deg,#808080 55.05%,#fff0)
 }
 /*opentabs.org/ads*/
 /*Background and text colors*/
@@ -144,12 +146,12 @@ color:#fff
 }
 /*Adblock*/
 [src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPfSURBVHgB7ZpdTttAEIBn1g5PrcQrIlXJDegJalSC+gBpOEHDCSgnINyAGzTcIC20Qg1Vww3aE+AWEI9NxQvF2NPdpE7zYyfeWScxqJ8UgRM7yucd787uDoIhFxvFCgK9IsJ5SBuBtfz7TwdgAIIBF+trNUB6DZOllj9sbAETtuCU5ELYkizBKcuFsCS1BWckF6ItqSU4Y7kQLcnEghmRC0ksKZKclJKcawE4Iucvge9vyVvbAj4VOTy9TXLi2BZMreWCoJL/8Lk7pl2WVnfl2FkFM8a25MgWNJFDorp8VeUddNWxJYTb+znd4XcwZ2xLxgoaylUXj0425Wvv1vKehZIRtFTYylZAy/MKMp6+gj4jJSMFTcPy9u6uG4qFerNFgPWYU+sLh41T9c/CcdOlgHaAR6zkkGAaz1xB/tjeY6QgukMJgmbvoW3bLvCJlOwTzNhQwGFIsiv4AORC+iTbguel4r6JnOpUVGeB8c/atOlK2ufrqw4SbAMb3F88auz9PTi9KBV/QjaoSLcDIZvwORhgAfW3GrG6+omg3BKlaveZ/4L3nQcvaEP2aclVuyYBdbIhFGXZkSVewcu4IO1713d7hWazm+pdltYcKTs7wREzB83vwfriYaMv+b4oF5fJpyXQYCotSDa+u7nx+hJuEuQC+LHXCNl6g++hD9sEeqQueHvtDU158vXG0OD/5OikCfG44TSqD0QHSE8x9V6093lhEwTVwbdUSkmkF56KTA4Tnu8PtZ5AZE0GsihYG5wwt1HhySBTggv1Y9eLeIa54anIXAtGPcPc8GxfC/cAQigDk8wL/lh/oZWaDZJ5QcsgPBWZFjwrO/NyTZUdngpjQT8IlmBC5PyckZzCWFCgSL/44B/Gy5jy96FRahUgb3wax1X55ZL844ABcux0xW/hHRjt1REvwxiH7/sOmOGqlE+ozREZqCtsSYTlM8eZRJiahGdLzsQ2VcrXfgbb0xkDyblHtsHC8TAqNQN+eCq5lfzHzhSt28mYSBLimzRbUQiRaHs6gj659nf1fmogOZ97PLcLKXBeWqsyE+shOUXkHr1a+4AAvminSIgVk9oyJSc3cjg3KlKu/ZPirmBLAu3kD0/2da5QGYsd5KrMTaBYOcXIKgu+JNQ8y9oryPnduBPb1YqIu2mGZS/jy0j4kp2dJqQm+Pits4om3/Jp3s6JpwHBMqhpEH+mMFZOkajSyUhyMiSSUyQv5cqOZGI5hV4x3uwlteQU+uWUs5PUllPwCmKnL8mSU/BLmqcnyZZTsCe8YVqX1m5SDK6JnMKo6j7kaqNoVKkRhW/Br6hNG13+AEDW6elytnFPAAAAAElFTkSuQmCC"]{
-background-image:url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.elements/AdBlock.png");
+background-image:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black%20OpenTabs%20Search%2B.elements/AdBlock.png");
 background-size:cover
 }
 /*Ghostery*/
 [src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA4CAYAAAC/pKvXAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUISURBVHgB1ZptUttGGMf/K8mZtgnGPkHUE4ScADOdmEm/EE6Ac4I6JwBOEDhB6AmgHzoEmBb3BGlOUPcE5mX6MrGl7fPs1tiydqWVJTD+TZjAalfav/bleVkJVMnxoIFv/BZ88RyxWNOFMtT/iz6E7COWnyG8PtrPfkeFCJSFO78S7EDiDaRsFWjZp58e4B1WIWp+Ierte1144gcS0UApRA8R9vF6pYc5mU/Ix+suTZ/d8gJSHCGKSFCzj4IUE8Kj8Cw4LjiFitKHjN5hs3lSpJG7kNNBCN+/pN9CPASRpJFZ3XOt7ibkoUWMKSAmX8iiRIyR6GCz/mNeNS+vAol4j0WJYAQO8PNgLa9athDenUD2YbE0UPM+5FWyC+EpxTbiUUBewtntblYNuxDf54Yh8pDkdggetegl2YC36u/8Ngeqvvoh2+GCkF21/dsuG0v1Av8D+R0i3yneSBgw3fYTYDGWUu5hc3U/UXZx854WdRe5zxPUdmXfdMk8Ij45fk7QjWetMP8txIGxOgufFcEEEZddIfdx9vVqFiLEDvJQnbJsi8Ho0Ngx4ZkFbjSvrOKTD12z7WBpIZc0D51cEGH3WHXH+qny4eg3axtkXZuiFqybitNCRkHunq1bimzXW8r09S/KdTczyriWvG/LVJwWIvEC98V2074OvnJYI4yA49QSjq55LPPqpa//8s9za+2hs/dgfK5hRMahaQ6WNzNF+no8tLfx/BBuOApxp2U1UOdqZwlT5TG1sRFjCyUoIwSUaLC4Db7ZtRHkybLBnEWXdVCCckIEWWPtWE44u96DvVMNFRJMi5mECSW7Msv5zQcUfjuUPNDpntAxDO5rOyTI3sRvCsf+7Xqq3wEqgTsv1T9HQp3vKtQmk3JT6xFRQghZbheX3Z1CWZNZSgihYEfE25WIYdcejpbdQrmpJYMtFY8ITn3OdYMrjKJtugd70R2UoOT2S1Hbv/QmX9U3nKPDCZRVjF/ie0rE+f4uSlJ2sTfujOLr5hEFTd8qQTzfU6IkT52emkZ/RU3aQt+qIKwCY8hUY0eiiMPdnvHa2FH87us/jdfPbzikDlEEgx2pZvv1/WOj68GwAJuIs+sjVJQzq8qOaNfDIZGmYGeTRbiE1I5UaRBD1Ch7ckq+lm10mIvbFp5SvQpFMBX5Wqm7XpHrcaLC4SE+w2cfjCJPj2xPFUcSfi2cna5pX0sIdvxQCu0EdiiKpIeO78vlFTlWBuaPEBeJIdJMCrlUEV+Ix44U4WxRUohrKmjhyJwRuc9UULWkUqdJIWLhZyGuNGZt1kSIc6r0kRAEiazLRMjQX5bR0IjkS58IqdjSPgAt8iBa4z+0EHYplmlajfH8u+mlhVQQ2CwETvj9n+0cT60WlpMGngZqSXjkJHawDNbcilSbFI/IOpYblUwPzN4u56woDepRjO3V9MmTGIWIKN6WDzENVXy/B//Jyd2zRzEZQNHSWU2RTLE+QSjwcdCF5+3oXCwJ4Ma20JSN5hfvkxJ/n+R9f3Jxs6WOKDw6g+ExaNc3in94dkF7tyySPVfZlEbqLVqrU0C2Wd9GQYqHuq+anNLJ+1qHp2VHp30oRdRebSLgaUG5rKzcl/oAIXqHOZjvU0CeYkP11VBnqhcc3h7g7/gw89CTOR10EPg7yfXG64Kylu1m9mmxhfk/zmR+vV2ncDZETGcj7RW3c/Jp2KMI/BfqAPY2+in3BWTwH+joyYf0JxOZAAAAAElFTkSuQmCC"]{
-content: url("https://raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.elements/Ghostery.png");
+content:url("https://raw.githubusercontent.com/Gersonzao/userCSS/main/Black%20OpenTabs%20Search%2B.elements/Ghostery.png");
 background-size:cover
 }
 /*Other*/
@@ -167,24 +169,24 @@ filter:brightness(100)
 }
 /*Footer*/
 .Financial_fade__2zu-T{
-	background: linear-gradient(0deg,#808080 55.05%,hsla(0,0%,100%,0))
+	background:linear-gradient(0deg,#808080 55.05%,#fff0)
 }
 /*opentabs.org/privacy*/
 /*Footer*/
 .Privacy_fade__3DSwg{
-	background: linear-gradient(0deg,#808080 55.05%,#fff0)
+	background:linear-gradient(0deg,#808080 55.05%,#fff0)
 }
 /*opentabs.org/terms*/
 /*Footer*/
 .Terms_fade__1lXS6{
-	background: linear-gradient(0deg,#808080 55.05%,hsla(0,0%,100%,0))
+	background:linear-gradient(0deg,#808080 55.05%,#fff0)
 }
 /*games.opentabs.org*/
 .background-gradient{
-	background: linear-gradient(0deg,#000,#000)
+	background:linear-gradient(0deg,#000,#000)
 }
 /*Total counter background*/
-.right-bar .nipple .counter-popup, .right-bar .nipple::after{
+.right-bar .nipple .counter-popup,.right-bar .nipple::after{
 	background-color:#000
 }
 /*Personal counter circle*/
@@ -205,11 +207,19 @@ filter:brightness(100)
 	color:#fff
 }
 /*search.opentabs.org*/
-/*Searchbar colors*/
+/*Title bar shadow*/
+.serp-shrink{
+	box-shadow:none
+}
+/*Search bar colors*/
 .serp-searchinput{
 background:#000;
-color:#aaa;
+color:#fff;
 border-color:#000
+}
+/*Search bar shadow*/
+#serp-search{
+	box-shadow:none
 }
 /*Autocomplete options color*/
 .autocomplete_container{
@@ -228,6 +238,10 @@ border-color:#000
 /*Autocomplete active color*/
 .isActive{
 background-color:#111
+}
+/*Autocomplete shadow*/
+.suggestions-active .autocomplete_container {
+	box-shadow:none
 }
 /*Dropdown list background*/
 .drop-down-list{
@@ -256,25 +270,29 @@ border-bottom:#000
 }
 /*Result description*/
 ul.web li .desc{
-color:#aaa
+color:#808080
 }
 /*Hyperlink color*/
 ul.web li .title a{
 	color:#8ab4f8
 }
 /*Image explorer next button color*/
-.images-wrap button.slick-next.slick-arrow {
-border-color: #fff;
+.images-wrap button.slick-next.slick-arrow{
+border-color:#fff;
 filter:invert(100)
 }
 /*Image explorer previous button color*/
-.images-wrap button.slick-prev.slick-arrow {
-border-color: #fff;
+.images-wrap button.slick-prev.slick-arrow{
+border-color:#fff;
 filter:invert(100)
+}
+/*See more images button border color*/
+.read-more-news{
+border-color:#000
 }
 /*See more images button text color*/
 .read-more-news span{
-	color:#aaa
+	color:#808080
 }
 /*Page selector color*/
 #serp-paging{
