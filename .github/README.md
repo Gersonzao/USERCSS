@@ -6,6 +6,11 @@ This is a collection of user styles for multiple pages made for whoever uses the
 [Black OpenTabs Search+](/Black%20OpenTabs%20Search%2B.elements/README.md) [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.user.css)<br>
 Messenger Left Sidebar Hider [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/Messenger%20Left%20Sidebar%20Hider.user.css)<br>
 
+## Appliance:
+**All styles do not cover:**<br>
+Ad content;<br>
+Places with various images (e.g. Image searches, shop products)
+
 ## To-do:
 Archive CEFR page<br>
 Create own sorting method on a new repository and mention it in translating
