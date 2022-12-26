@@ -4,7 +4,7 @@ This is a collection of user styles for multiple pages made for whoever uses the
 ## Per-style Info/Direct Installation
 [Black Ecosia](/Black%20Ecosia.css.elements/README.md) [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/Black%20Ecosia.user.css)<br>
 [Black OpenTabs Search+](/Black%20OpenTabs%20Search%2B.elements/README.md) [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/OpenTabs%20Search%2B.user.css)<br>
-Messenger Left Sidebar Hider [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/Messenger%20Left%20Sidebar%20Hider.user.css)<br>
+[Messenger Left Sidebar Hider](/Messenger%20Left%20Sidebar%20Hider.elements/README.md) [![Install directly with Stylus](http://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](http:raw.githubusercontent.com/Gersonzao/UserCSS/main/Messenger%20Left%20Sidebar%20Hider.user.css)<br>
 
 ## Appliance:
 **All styles do not cover:**<br>
