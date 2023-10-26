@@ -1,0 +1,12 @@
+/*==UserStyle==
+@author Gersonzao <Gersonzao@skiff.com> (https:github.com/Gersonzao/USERCSS)
+@description Hide Messenger left sidebar
+@homepageURL https:github.com/Gersonzao/USERCSS
+@license AGPL-3.0-or-later
+@name Hide Messenger left sidebar
+@namespace https:github.com/Gersonzao/USERCSS
+@supportURL https:github.com/Gersonzao/USERCSS
+@updateURL https:userstyles.world/api/style/6832.user.css
+@version 1.0.1
+==/UserStyle==*/
+@-moz-document domain(messenger.com){.x1247r65,.x18qqrc1{display:none}}
